@@ -51,7 +51,8 @@ begsr main;
      endif;                                     
      exfmt w1;                                  
      bandresp = *off;      
-     prueba                     
+     //prueba
+     //esto es otra prueba mas  saludos github                     
 endsr;                                          
                                                 
 dcl-proc obtuserfacuracion;                     
