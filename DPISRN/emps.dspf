@@ -14,6 +14,8 @@ A            SRNTIPSERV     2A  O 11 27
 A            SRNESTATUS    10A  O 11 45                                  
 A            SRNHORA        8A  O 11 67                                  
 A            SRNSELEC       1A  B 11  2                                  
+A            SRNFECHAH1    26A  H  
+A            SRNFECHAH2    26A  H  
 A            SRNFECHAH     26A  H                                        
 A          R CTL001                    SFLCTL(SFL001)                    
 A*%%TS  SD  20220322  102313  DSGOGAMTJ   REL-V7R4M0  5770-WDS           
