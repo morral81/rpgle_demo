@@ -13,7 +13,9 @@ dcl-f SVG8600PAN  workstn;
 //declaracion de variables                                                       
 dcl-s wnbrcols        int(10)     inz(132);                                      
 dcl-s wnbrrows        int(10)     inz(20);                                       
-                                                                                 
+dcl-c juanito         'c';
+dc
+
 //Api para Presentar pantalla como popup                                         
 dcl-pr setscreensize  extproc('QsnRtvScrDim');                                   
      nbrrows          int(10)     options(*omit);                                
