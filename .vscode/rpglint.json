@@ -10,5 +10,20 @@
    "RequiresParameter": true,
    "StringLiteralDupe": true,
    "NoSQLJoins": true,
-   "NoCTDATA": true
+   "NoCTDATA": true,
+   "PrettyComments": true,
+   "UppercaseDirectives": true,
+   "RequireBlankSpecial": true,
+   "RequiresProcedureDescription": true,
+   "NoGlobalsInProcedures": true,
+   "CopybookDirective":"include",
+   "UselessOperationCheck": true,
+   "SpecificCasing": [
+      {"operation": "FOR",
+      "expected":"for"
+      },
+      {"operation": "DSPLY",
+      "expected": "dsply"
+      }
+   ]
 }
