@@ -50,7 +50,8 @@ begsr main;
           *in90  = *off;                        
      endif;                                     
      exfmt w1;                                  
-     bandresp = *off;                           
+     bandresp = *off;      
+     prueba                     
 endsr;                                          
                                                 
 dcl-proc obtuserfacuracion;                     
